@@ -9,11 +9,11 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
 
-model = pickle.load(open('model.penguins.save','rb'))
-island_encoder = pickle.load(open('encoder.island','rb'))
-sex_encoder = pickle.load(open('encoder.sex','rb'))
-species_encoder = pickle.load(open('encoder.spespecies','rb'))
-evaluations = pickle.load(open('evaluations.all','rb'))
+model = pickle.load(open('model.penguins.sav','rb'))
+island_encoder = pickle.load(open('encoder.island.sav','rb'))
+sex_encoder = pickle.load(open('encoder.sex.sav','rb'))
+species_encoder = pickle.load(open('encoder.species.sav','rb'))
+evaluations = pickle.load(open('evaluation.all.sav','rb'))
 
 st.set_page_config(
     page_title="Penguin",
